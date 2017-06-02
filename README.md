@@ -16,7 +16,7 @@ To run
 
 `npm start`
 
-To read, you'll want to direct your attention to the [Cards directory](https://github.com/HardcoreParker/react-cards-component/tree/master/src/components/Cards). I put this together with `React`, `Stylus`. and `ES5` with some `ES6` sprinked in.
+To read, you'll want to direct your attention to the [Cards directory](https://github.com/HardcoreParker/react-cards-component/tree/master/src/components/Cards). I put this together with `React`, `Stylus` and `ES5` with some `ES6` sprinked in.
 
 Quick preview of what it looks like
 ![Quick Preview](http://i.imgur.com/TnoDu8B.png)
