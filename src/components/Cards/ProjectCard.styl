@@ -1,0 +1,90 @@
+@import './Portfolio'
+
+$margin = .25em 0em .25em .5em;
+$padding = .5em .5em;
+
+$button-color = $lightbluelinkcolor;
+
+$primary-color = #DDD;
+$secondary-color = #FFF;
+$tertiary-color = #CCC;
+
+.card {
+  height: 30em;
+  font-size: 20px;
+  width: 20em;
+  background-color: $secondary-color;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  margin: 2em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_background {
+  background-image: url(https://placeimg.com/640/480/nature);
+  height: 12em;
+  width: 100%;
+  background-color: $tertiary-color;
+  position: relative;
+  min-width: 100%;
+}
+
+.card_title {
+  color: $primary-color;
+  font-size: 30px;
+  background-color: black;
+  opacity: 0.4;
+  text-overflow: ellipsis;
+  overflow: visible;
+  position: relative;
+  margin: 6em 0em 1em 0;
+  padding: 0 0 0 .5em;
+}
+
+.card_description {
+  margin: $margin;
+  position: relative;
+}
+
+.navbar {
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.navbar :last-child {
+  margin-left: auto;
+}
+
+.icon {
+  padding: $padding;
+  height: 2em;
+  width: 2em;
+}
+
+button {
+  outline: none;
+  position: relative;
+  display: inline-block;
+  line-height: 2em;
+  padding: $padding;
+  color: $button-color;
+  border: none;
+  background: none;
+  font-size: 1em;
+}
+
+.card_button_active {
+  border-bottom: thin solid #ff0000;
+}
+
+.card_content {
+  display: none;
+  margin: $margin * 2;
+  line-height: 1.5em;
+  overflow-y: scroll;
+}
+
+.card_content_active {
+  display: block;
+}

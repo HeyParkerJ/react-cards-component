@@ -1,0 +1,20 @@
+@import '../App'
+
+.primaryContainer {
+  @extends .container;
+  background-color: $containerBG;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondaryContainer {
+  @extends .container;
+  background-color: $containerBGSecondary;
+}
+
+.sectionTitle {
+  font-family: $basefontfamily;
+  color: $tertiarycolor + 30%;
+  font-size: 2em;
+  font-weight: 300;
+}
